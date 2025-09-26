@@ -3,7 +3,7 @@
 
 public struct SPMTest {
     public init() {}
-    public func greet(name: String) -> String {
-        "Hello, \(name)!"
+    public func greet(name: String)  {
+        print("Hello, \(name)!")
     }
 }
